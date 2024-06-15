@@ -1,0 +1,44 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using PeakPals_Project.Areas.Identity.Data
+@using PeakPals_Project.Models
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{ 
+    string email = User.Identity.Name ?? null;
+    string username = email?.Split('@')[0] ?? null;
+}
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item" id="nav-item">
+            <a class="nav-link nav-link-color" id="profile-text" asp-controller="Profile" asp-action="GetProfile" asp-route-username="@username">Profile</a>
+            <div class="box3 d-block d-sm-none"></div>
+        </li>
+        <li class="nav-item nav-custom" id="nav-item-custom">
+            <div class="box1 d-none d-md-block"></div>
+            <a class="nav-link nav-link-box-text" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                @User.Identity?.Name</a>
+        </li>
+        <li class="nav-item nav-custom" id="nav-item-custom">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout"
+                asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <div class="box1 d-none d-md-block"></div>
+                <button type="submit" id="logout-button" class="nav-link btn btn-link nav-link-box-text">Logout</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <div id="partial-nav-toggle-display">
+            <li class="nav-item" id="nav-item-custom">
+                <div class="box1 d-none d-md-block"></div>
+                <a class="nav-link nav-link-box-text" asp-area="Identity" asp-page="/Account/Register">Register</a>
+            </li>
+            <li class="nav-item" id="nav-item-custom">
+                <div class="box2 d-none d-md-block"></div>
+                <a class="nav-link nav-link-box-text" id="login-button" asp-area="Identity" asp-page="/Account/Login">Login</a>
+            </li>
+        </div>
+            }
+

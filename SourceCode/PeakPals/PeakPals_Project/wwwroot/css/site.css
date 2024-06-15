@@ -1,0 +1,415 @@
+html {
+  font-size: 14px;
+}
+
+@media (max-width: 861px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .nav-custom {
+      display: flex !important;
+      flex-direction: column !important;
+      font-size: 0.1em !important;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+#navbar-nav-options > #nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#qrCodeText{
+  color: #ffa500;
+
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  margin-bottom: 60px;
+  margin: 0;
+  border: 0;
+}
+
+#navbar-options {
+  height: 6em;
+  display: flex;
+}
+
+#navbar-nav-options {
+  justify-content: flex-end;
+}
+
+.navbar-brand {
+  margin-left: 6em;
+  font-family: "Rock Salt", cursive;
+  font-size: xx-large;
+
+}
+
+#nav-item {
+  margin-right: 3em;
+  font-family: "Sriracha", cursive;
+  font-size: x-large;
+}
+
+#nav-item-custom {
+  margin-left: 1.5em;
+  margin-right: 0.5em;
+}
+
+.nav-link-color {
+  color: #ffa500 !important;
+}
+
+.nav-link-color:hover {
+  color: rgb(255, 217, 175) !important;
+}
+
+.nav-link-box-text {
+  color: #ffffff !important;
+  
+  font-size: x-large;
+}
+
+.nav-link-box-text:hover {
+  color: rgb(255, 217, 175) !important;
+}
+
+
+.box1 {
+  background-color: #ffa500;
+  padding: 10px;
+  margin: 5px 0;
+  box-shadow: 0 4px 8px 0 rgb(248, 153, 0, 0.3);
+  border-radius: 10px;
+
+}
+
+.box2 {
+  background-color: #ffa500;
+  padding: 10px;
+  margin: 5px 0;
+  box-shadow: 0 4px 8px 0 rgb(248, 153, 0, 0.3);
+  border-radius: 10px;
+}
+
+.box3 {
+  background-color: #ffa500;
+  padding: 3px;
+  margin: 2px;
+  box-shadow: 0 4px 8px 0 rgb(248, 153, 0, 0.3);
+  border-radius: 10px;
+}
+
+.confirmation-popup {
+  background-color: #ffa500;
+  /* Change this to the color you want for the box */
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 0.5px;
+  /* Adjust this value to change the size of the box */
+  margin: 5px 0;
+  /* This adds some space above and below the box */
+  box-shadow: 0 4px 8px 0 rgb(248, 153, 0, 0.3);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-size: 1.4em;
+  font-family: "Sriracha", cursive;
+  position: fixed; 
+  bottom: 25px; 
+  right: 25px;
+  z-index: 1000;
+
+}
+
+.record-to-report-button {
+  background-color: #ffa500;
+  /* Change this to the color you want for the box */
+  padding: 10px;
+  /* Adjust this value to change the size of the box */
+  box-shadow: 0 4px 8px 0 rgb(248, 153, 0, 0.3);
+  border-radius: 10px;
+  color: white !important;
+  text-decoration: none;
+  font-size: large;
+}
+
+
+#index-body {
+  background-image: url('../images/rockclimbing2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#about-body {
+    background-image: url('../images/rockclimbing2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f0f0f0;
+}
+
+.about-description {
+  font-family: "Sriracha", cursive;
+  text-align: center;
+}
+
+.fancy {
+  font-family: Quando, serif;
+  text-align: center;
+}
+
+.about-us-box {
+  width: auto;
+  padding: 20px;
+  background-color: rgb(28, 28, 28);
+  text-align: center;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 4px 4px 4px 4px black;
+
+}
+
+
+#record-body {
+  background-image: url('../images/background_image_3.jpg');
+  /* Replace with the path to your image */
+  background-size: cover;
+  /* This will stretch the image to cover the entire element */
+  background-repeat: no-repeat;
+  /* This will prevent the image from repeating */
+}
+
+#report-body {
+  background-image: url('../images/rockclimbing4.jpg');
+  /* Replace with the path to your image */
+  background-size: cover;
+  /* This will stretch the image to cover the entire element */
+  background-repeat: no-repeat;
+  /* This will prevent the image from repeating */
+}
+
+.welcome {
+  /*font-style:oblique; */
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 2.75em;
+  margin-bottom: 6cm;
+  font-size: 6.5em;
+  text-shadow: black 2px 2px 2px;
+}
+
+.welcome-text {
+  font-family: "Sriracha", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2em;
+  text-shadow: black 4px 4px 4px;
+}
+
+#partial-nav-toggle-display {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-class {
+  width: 1.5em;
+  height: 1.5em;
+  fill: white;
+}
+
+
+#profile-text {
+
+}
+
+#community-input {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#community-validation-warning
+{
+  font-family: "Sriracha", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.75em;
+  text-shadow: red 3px 3px 3px;
+  color: white;
+}
+
+#about-us
+{
+  font-family: "Quando", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+  text-shadow: black 4px 4px 4px;
+  color: white;
+}
+
+#about-box
+{
+    width: auto;
+    padding: 20px;
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 4px 4px 4px 4px black;
+
+}
+
+@media (min-width: 2100px)
+/* This is for resolutions for any devices above 1080p */
+  {
+  #navbar-options {
+    height: 7em;
+  }
+
+  .navbar-brand {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 2099px)
+/* This is for monitors of resolution between 769p to 1080p */
+  {
+  #navbar-options {
+    height: 6.5em;
+  }
+
+
+  @media (min-width: 1365px) {
+    .welcome {
+      font-size: 4.5em;
+      margin-top: 2.5em;
+      margin-bottom: 5cm;
+    }
+
+    .welcome-text {
+      font-size: 1.75em;
+    }
+  }
+}
+
+@media (max-width: 1900px)
+/* This is for monitors of resolution that aren't mobile but are no greater 768p  */
+  {
+  .welcome {
+    font-size: 3.5em;
+    margin-top: 2.25em;
+    margin-bottom: 4cm;
+  }
+
+
+  .welcome-text {
+    font-size: 1.75em;
+  }
+
+  #nav-item {
+    margin-right: 2em;
+    font-size: large;
+  }
+
+  .nav-link-box-text {
+    color: #ffffff !important;
+    font-size: medium;
+  }
+
+}
+
+@media (max-width: 1700px)
+/* This is for sizes below 1110px. */
+{
+
+  .navbar-brand {
+    margin-left: 0;
+    font-size: x-large;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  #nav-item-custom {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  #profile-text {
+   
+  }
+
+}
+
+@media (max-width: 1200px)
+/* This is for larger mobile sizes */
+{
+
+
+  #nav-item {
+    font-size: small !important;
+  }
+
+  .nav-link-box-text {
+    font-size: small !important;
+  }
+
+}
+
+@media (max-width: 550px)
+/* This is for smalll mobile sizes */
+{
+  #nav-item {
+    font-size: xx-small !important;
+    
+  }
+
+  .nav-link-box-text {
+    font-size: xx-small !important;
+  }
+
+  .navbar-brand {
+    font-size: large;
+  }
+}
+

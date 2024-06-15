@@ -1,0 +1,235 @@
+
+#profile-body {
+    background-image: url('../images/background_image_3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+
+@media screen and (min-width: 992px) {
+    .profile-box {
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .profile-box {
+    }
+}
+
+#joinedCommunityGroupsHeader{
+    font-family: "Quando", serif;
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#joinedCommunityGroupsDiv{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+    height: 200px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #000000 white;
+}
+
+@media (max-width: 800px) {
+    #joinedGroupLink {
+        font-size: 0.1em;
+    }
+}
+
+
+.joinedGroupLink{
+    text-decoration: none;
+    color: white;
+    font-family: "Quando", serif;
+}
+
+.joinedGroupLink:hover{
+    color: lightblue;
+}
+
+.joinedCommunityGroup{
+    font-family: "Quando", serif;
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: center;
+    background-color: #ff6a00;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+.profile-box {
+    width: auto;
+    padding: 20px;
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 4px 4px 4px 4px black;
+
+}
+
+.link-text{
+    color: #ffa500;
+    font-family: "Sriracha", cursive;
+    text-decoration: none;
+}
+
+.bio-textarea {
+    max-height: 300px; 
+    overflow-y: auto;
+}
+
+.bio{
+    height: 300px;
+}
+
+.profile-image {
+    width: 75%;
+    height: 75%;
+    margin-bottom: 0;
+    border-radius: 50%;
+}
+
+.display-name {
+    margin: 20px 0 10px;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "Rock Salt", cursive;
+}
+
+.bio {
+    font-size: 1em;
+    margin: 20px 0 10px;
+    font-family: "Sriracha", cursive;
+}
+
+#edit-btn{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Sriracha", cursive;
+}
+
+#btn-tabs {
+    width: 100%; 
+    font-size: 1.5em; 
+    border-radius: 0px;   
+}
+
+#btn-tabs:hover {
+    color: rgb(255, 217, 175) !important;
+    box-shadow: 0 4px 8px 0 #ffa500;
+}
+
+#input-color {
+    background-color: silver;
+}
+
+
+.form-group
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1800px)
+{
+   
+    
+    .bio {
+        font-size: 1.25em;
+    }
+
+    .display-name {
+        font-size: 3em;
+    }
+}
+
+@media (max-height: 800px)
+{
+    .bio-textarea {
+        max-height: 140px; 
+        overflow-y: auto;
+    }
+}
+
+#loggedClimbsHeader{
+    font-family: "Quando", serif;
+    font-size: 2em;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.loggedClimbName{
+    font-family: "Quando", serif;
+    font-size: 1.5em;
+    margin: 10px;
+    text-align: center;
+    color: rgb(212, 227, 255);
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.loggedClimbName:hover{
+    color: lightblue;
+}
+
+.loggedClimb{
+    font-family: "Quando", serif;
+    font-size: 1.5em;
+    color: #000000;
+    margin: 10px;
+    text-align: center;
+    background-color: #ea690d;
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+
+#loggedClimbsDiv{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    box-shadow: 2px 2px 2px 2px #ffa500;
+    
+}
+
+.tag{
+    display: inline-block;
+    padding: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    background-color: #1fff44;
+}

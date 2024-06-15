@@ -1,0 +1,454 @@
+#report-tab-content{
+    background-color: white;
+    
+}
+
+#report-body
+{
+    background-image: url(../images/background_image_2.jpg);
+}
+
+#history-tab{
+    color: white;
+    font-size: larger;
+    font-family: "Sriracha", cursive;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#analysis-tab{
+    color: white;
+    font-size: larger;
+    font-family: "Sriracha", cursive;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#recommendations-tab{
+    color: white;
+    font-size: larger;
+    font-family: "Sriracha", cursive;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#recommendations-button{
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-item{
+    font-size: 1.5em;
+    font-family: "Sriracha", cursive;
+}
+
+.nav-buttons{
+    margin: 5px;
+    padding: 0px;
+    border-radius: 10px;
+    border: 2px solid #ffa500;
+    width: 130px;
+    height: 60px;
+    background-color: black;
+    font-size: 1.5em;
+}
+
+#filterButtonSubmit{
+    background-color: #ffa500;
+    color: black;
+    border: 1px solid black;
+    font-family: "Sriracha", cursive;
+}   
+
+.deleteButton{
+    border: 1px solid black;
+    font-family: "Sriracha", cursive;
+    border-radius: 5px;
+}
+
+.history-card{
+    background-color: #000000;
+    border: 3px solid #ffa500;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.history-results-div{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px;
+    color: white;
+}
+.history-graph-div{
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .history-graph-div{
+        height: 250px;
+    }
+}
+
+.missing-data-message{
+    color: #ffa500;
+    font-family: "Sriracha", cursive;
+    font-size: 1.25em;
+    padding-top: 20px;
+}
+
+.history-graph-div img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.history-modal-graph {
+    width: 100%;
+    height: 250px;
+}
+
+.record-button{
+    background-color: #ffa500;
+    color: black;
+    border: 1px solid black;
+    font-family: "Sriracha", cursive;
+    border-radius: 5px;
+
+}
+
+.record-button:hover{
+    background-color: #ffc250;
+}
+
+.history-table-div{
+    border-radius: 20px;
+    padding: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 250px;
+}
+
+#details-container
+{
+    background-color: rgba(12, 12, 12, 0.80);
+    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1.75em;
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+    border-radius: 5px;
+    box-shadow: black, 10px, 10px, 10px;
+    color: rgb(227, 227, 227);
+
+}
+
+.container{
+    padding: 0px;
+}
+
+.history-table-div table {
+    font-size: 0.85em;
+}
+
+td{
+    padding: 0px;
+    width: 0px;
+}
+
+tbody{
+    padding: 0px;
+}
+
+tr{
+    border: none;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: none;
+}
+
+.history-card{
+    height: 98%;
+}
+
+.col-xl-3{
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.col-lg-4{
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.col-md-6{
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.col-xs-12{
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+
+.active-tab{
+    background-color: rgb(51, 51, 51);
+}
+
+#orange-highlight{
+    color: #ffa500;
+}
+
+p{
+    font-family: "Sriracha", cursive;
+    color: white;
+}
+
+#higher-score{
+    color: rgb(0, 255, 0);
+}
+
+#lower-score{
+    color: rgb(255, 0, 0);
+}
+
+#same-score{
+    color: rgb(255, 255, 0);
+}
+
+.orange-text{
+    color: #ffa500;
+}
+
+.recent-test{
+    width: 100%;
+
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 108px;
+    font-size: 1.15em;
+}
+
+.average-test{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 172px;
+    font-size: 1.2em;
+}
+
+.filter-form-block{
+    padding: 0px;
+    margin: 0px;
+}
+
+.modal-row{
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-cell{
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#filter-form{
+    background-color: #000000;
+    border: 3px solid #ffa500;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.modal-body{
+    padding: 0px;
+    margin: 0px;
+    border-radius: 15px;
+}
+.form-control{
+    text-align: center;
+}
+.modal-content{
+    border-radius: 15px;
+    padding: 0px;
+    margin: auto;
+    
+}
+
+.display-text {
+    font-family: "Rock Salt", cursive;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 4.3em;
+}
+
+#modal-header-text{
+    font-family: "Sriracha", cursive;
+    color: white;
+    padding: 10px;
+    font-size: 3em;
+}
+
+.modal-dialog{
+    max-width: 800px;
+    padding-top: 15%;
+}
+
+.welcome{
+    margin-top: 50px;
+}
+
+.modal-label-text{
+    font-family: "Sriracha", cursive;
+    color: white;
+    font-size: 1.1em;
+    height: 40px;
+}
+
+#filterButtonSubmit{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.fa-filter{
+    color: rgb(255, 255, 255);
+    font-size: 1.8em;
+    padding: 3px;
+    padding-top: 6px;
+}
+
+#filter-button{
+    background-color: #000000;
+    color: black;
+    border: 1px solid #ffa500;
+    font-family: "Sriracha", cursive;
+    border-radius: 5px;
+}
+
+.history-card-header{
+    height: 70px;
+}
+
+/* Webkit browsers (Chrome, Safari) */
+.history-table-div::-webkit-scrollbar {
+    width: 10px; /* Adjust width as needed */
+}
+
+/* Firefox */
+.history-table-div {
+    scrollbar-width: thin; /* Adjust width as needed */
+    scrollbar-color: #ffa500 #000000; /* Adjust thumb and track color as needed */
+}
+
+.recommended-climb{
+    background-color: #000000;
+    border: 3px solid #ffa500;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+    min-height: 500px;
+}
+
+.recommended-climb-header-name{
+    font-size: 2.2em;
+    font-family: "Sriracha", cursive;
+    color: white;
+    min-height: 50px;
+}
+.recommended-climb-header-grade{
+    font-size: 2.2em;
+    font-family: "Sriracha", cursive;
+    color: white;
+    min-height: 50px;
+    text-align: left;
+}
+
+.recommended-climb-tag-div{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px;
+    color: white;
+    font-family: "srisacha", cursive;
+    min-height: 80px;
+    border-bottom: 1px solid #ffa500;
+    display: flex; /* Added */
+    flex-wrap: wrap; /* Added */
+    justify-content: center; /* Added */
+}
+
+.recommended-climb-description-div{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px;
+    color: white;
+    font-family: "srisacha", cursive;
+    min-height: 250px;
+    border-bottom: 1px solid #ffa500;
+    padding-bottom: 20px;
+}
+
+.recommend-climb-button{
+    background-color: #ffa500;
+    color: black;
+    border: 1px solid black;
+    font-family: "Sriracha", cursive;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 1.35em;
+}
+
+.refresh-button{
+    background-color: #ffa500;
+    color: black;
+    border: 1px solid black;
+    font-family: "Sriracha", cursive;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 1.35em;
+    
+}
+
+.recommended-climb-header{
+    border-bottom: 1px solid #ffa500;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+#radar-chart{
+    border-radius: 25px;
+    border: 1px solid #ffa500;
+}
+
+.recommended-climb-tag{
+    font-family: "Sriracha", cursive;
+    border-radius: 5px;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 50px;
+}
